@@ -11,7 +11,7 @@ export class HomeComponent implements OnInit {
   allFruits: Fruits[] = [];
   constructor(private fruitService: FruitsService) { }
 
-  ngOnInit(): void {
+  ngOnInit(): void  {
     this.get()
   }
   get () {
